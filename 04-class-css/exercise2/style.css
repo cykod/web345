@@ -31,22 +31,115 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
-	line-height: 1;
+	font-family:arial;
+	line-height: 1.2;
+	color:#454742;
+
 }
+
+#article {
+float:left;
+
+}
+
+#img   {
+float:right:
+
+}
+
+
+h2 {
+	font-family: arial;
+	text-transform:uppercase;
+	color:#7A5919;
+}
+
+
 ol, ul {
+
 	list-style: none;
 }
+
+li a {
+text-decoration:none;
+color:white;
+text-transform:uppercase;
+
+
+}
+
+
 blockquote, q {
 	quotes: none;
 }
+
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+#site-wrapper   {
+position:relative;
+
+}
+
+#site-header   {
+background-color:#F0FFF0;
+}
+
+#top-nav  a {
+float:right;
+top:0px;
+background-color:#F0FFF0;
+text-decoration:none;
+
+}
+
+#menu-wrapper  {
+height:80px;
+weidth:960px;
+background-color:#7A5919;
+}
+
+
+#main-menu  {
+float:left;
+}
+
+#aside  {
+float:right;
+}
+
+#footer-wrapper {
+background-color:#7A5919;
+}
+
+#footer-contact  {
+color:white;
+
+}
+
+#footer-follow  {
+float:right;
+background-color:#7A5919;
+color:white;
+}
+
+
+
+
+
+
 

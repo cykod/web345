@@ -92,14 +92,17 @@ h1
 font-family:arial;
 font-weight:bold;
 font-size:2em;
+color:black;
 }
 
 
 h2
 {
-color:gray;
+color:#909090;
 font-family:arial;
 }
+
+
 
 
 article
@@ -108,6 +111,10 @@ float:left;
 width:45%;
 padding:2px;
 margin:12px;
+line-height:1.2;
+font-family:arial;
+color:gray;
+
 }
 
 
@@ -116,6 +123,7 @@ img
 float:left;
 margin:2px;
 padding-right:10px;
+padding-bottom:3px;
 }
 
 

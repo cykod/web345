@@ -54,7 +54,6 @@ h2 {
 
 
 ol, ul {
-
 	list-style: none;
 }
 
@@ -110,15 +109,17 @@ table {
 
 
 #main-menu  a {
-	float:right;
+	float:left;
 	background-color:#7A5919;
 	padding:3px;
+	
 }
 
 /* end menu wrapper*/
 
 	
 #content-wrapper {
+	clear:both;
 	background-color:gray;
 }
 
@@ -127,14 +128,15 @@ table {
 		color:gray;
 		padding:10px;
 		margin:10px;
+		background-color:white;	
+		
 	}
 
-#article {	
+#article {		
 }
 	
 	
 #page  p {
-		background-color:white;	
 		float:left;
 		width:60%;
 		padding:12px;
@@ -146,12 +148,17 @@ table {
 #aside {	
 	float:right;
 	width:35%;
-	
-	color:#7A5919;
 	background-color:white;
+	
 	text-align:center;
 	
 }
+
+#sidebar a {
+	text-transform:lowercase;
+	color:#7A5919;
+	background-color:white;
+	}
 
 
 img a {

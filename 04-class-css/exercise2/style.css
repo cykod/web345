@@ -95,23 +95,25 @@ table {
 }
 
 
-#top-nav {
+#top-nav a {
+	clear:both;
+	top:10px;
+	right:10px;
+	
 	text-decoration:none;
 	color:#996633;
 	background-color:#CCFFCC;
-	float:right;
-	top:10px;
 }
 
 /* end site wrapper*/
 
 
-#menu-wrapper li {
+#menu-wrapper {
 	padding:3px;
 }
 
 
-#main-menu li  {
+#main-menu li a {
 	background-color:gray;
 	padding:3px;
 }
@@ -157,21 +159,22 @@ img a {
 /* end content wrapper*/
 
 #footer-wrapper {
-	position:relative;
 	bottom:0;
-
 }
 
-#site-footer {	}
+#site-footer {	
+	bottom:0;
+	background-color:#7A5919;
+	padding:10px;
+	
+	}
 
 #footer-contact li {
-	padding:30px;
 	color:#7A5919;
 	
 }
 
 #footer-follow {
-	background-color:#7A5919;
 	color:white;
 	bottom:0;
 }

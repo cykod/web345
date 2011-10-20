@@ -38,20 +38,13 @@ body {
 	font-family:arial;
 	line-height: 1.2;
 	color:#454742;
-	
+	background-color:#669999;
 
 }
 
-#sidebar {
-	position:absolute;
-	right:10px;
 
-}
-
-h1 {
-	font-style:italic;
-	font-size:+1em;
-	
+h1 {color:#7A5919;
+	text-transform:uppercase;
 }
 
 h2 {
@@ -70,8 +63,7 @@ li a {
 	text-decoration:none;
 	color:white;
 	text-transform:uppercase;
-
-
+	background-color:#7A5919;
 }
 
 
@@ -94,66 +86,92 @@ table {
 
 
 #site-wrapper   {
-position:relative;
-align:center;
+	position:relative;
+	background-color:gray;
 }
 
 #site-header   {
-background-color:#F0FFF0;
-}
-
-#top-nav  {
-float:right;
-text-decoration:none;
-background-color:#F0FFF0;
-color:#7A5919;
-
-}
-
-#menu-wrapper  {
-float:left;
-height:20px;
-background-color:#7A5919;
-
-}
-
-#content-wrapper {
-	margin:auto;
-	width:60%;
+	float:left;
+	width:960px;
+	background-color:#CCFFCC;
 	
 }
 
 
-#main-menu {
- float:left;
+#top-nav {
+	text-decoration:none;
+	color:#996633;
+	background-color:#CCFFCC;
+	float:right;
+	top:10px;
+	
 }
 
-#aside  {
-float:right;
+
+#main-menu li  {
+	float:left;
+	background-color:red;
+	padding:3px;
+	
 }
+#menu-wrapper li {
+	padding:3px;
+}
+
+#page p {
+	float:left;
+	width:65%;
+	background-color:white;
+	padding:12px;
+	}
+	
+#content-wrapper {
+	background-color:gray;
+}
+
+
+#content p {
+		color:gray;
+		padding:10px;
+		margin:10px;
+	}
+	
+	
+#sidebar {
+	float:right;
+	width:35%;
+	
+}
+
+
+img {
+	float:right;
+	padding:5px;
+	
+ 	
+}
+
 
 #footer-wrapper {
-background-color:#7A5919;
+
+	bottom:0;
 }
 
-#footer-contact  {
-color:white;
-
-}
-
-#footer-follow  {
-float:right;
-background-color:#7A5919;
-color:white;
-}
-
-
-
-img
-{
-	float:right;
+#footer-contact li {
+	float:left;
+	padding:3px;
+	color:#7A5919;
 	
 }
+
+#footer-follow {
+	background-color:#7A5919;
+	color:white;
+	bottom:0;
+}
+
+
+
 
 
 

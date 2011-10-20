@@ -63,7 +63,6 @@ li a {
 	text-decoration:none;
 	color:white;
 	text-transform:uppercase;
-	background-color:#7A5919;
 }
 
 
@@ -86,7 +85,6 @@ table {
 
 
 #site-wrapper   {
-	position:relative;
 	background-color:gray;
 }
 
@@ -94,7 +92,6 @@ table {
 	float:left;
 	width:960px;
 	background-color:#CCFFCC;
-	
 }
 
 
@@ -104,26 +101,23 @@ table {
 	background-color:#CCFFCC;
 	float:right;
 	top:10px;
-	
 }
 
+/* end site wrapper*/
 
-#main-menu li  {
-	float:left;
-	background-color:red;
-	padding:3px;
-	
-}
+
 #menu-wrapper li {
 	padding:3px;
 }
 
-#page p {
-	float:left;
-	width:65%;
-	background-color:white;
-	padding:12px;
-	}
+
+#main-menu li  {
+	background-color:gray;
+	padding:3px;
+}
+
+/* end menu wrapper*/
+
 	
 #content-wrapper {
 	background-color:gray;
@@ -135,31 +129,43 @@ table {
 		padding:10px;
 		margin:10px;
 	}
+
+#article{	
+}
 	
 	
-#sidebar {
+#page p {
+		float:left;
+		width:65%;
+		background-color:white;
+		padding:12px;
+		}
+			
+	
+#sidebar li {
 	float:right;
 	width:35%;
 	
 }
 
 
-img {
+img a {
 	float:right;
 	padding:5px;
-	
- 	
 }
 
+/* end content wrapper*/
 
 #footer-wrapper {
-
+	position:relative;
 	bottom:0;
+
 }
 
+#site-footer {	}
+
 #footer-contact li {
-	float:left;
-	padding:3px;
+	padding:30px;
 	color:#7A5919;
 	
 }

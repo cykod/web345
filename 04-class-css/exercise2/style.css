@@ -34,11 +34,10 @@ footer, header, hgroup, menu, nav, section {
 
 
 body {
-	position:relative;
 	font-family:arial;
 	line-height: 1.2;
 	color:#454742;
-	background-color:#669999;
+	background-color:gray;
 
 }
 
@@ -85,24 +84,21 @@ table {
 
 
 #site-wrapper   {
-	background-color:gray;
+	
 }
 
 #site-header   {
-	float:left;
-	width:960px;
 	background-color:#CCFFCC;
 }
 
 
 #top-nav a {
 	clear:both;
-	top:10px;
-	right:10px;
+
 	
 	text-decoration:none;
 	color:#996633;
-	background-color:#CCFFCC;
+
 }
 
 /* end site wrapper*/
@@ -113,8 +109,9 @@ table {
 }
 
 
-#main-menu li a {
-	background-color:gray;
+#main-menu  a {
+	float:right;
+	background-color:#7A5919;
 	padding:3px;
 }
 
@@ -132,21 +129,27 @@ table {
 		margin:10px;
 	}
 
-#article{	
+#article {	
 }
 	
 	
-#page p {
+#page  p {
+		background-color:white;	
 		float:left;
-		width:65%;
-		background-color:white;
+		width:60%;
 		padding:12px;
+		
+		text-align:center;
 		}
 			
 	
-#sidebar li {
+#aside {	
 	float:right;
 	width:35%;
+	
+	color:#7A5919;
+	background-color:white;
+	text-align:center;
 	
 }
 
@@ -159,7 +162,6 @@ img a {
 /* end content wrapper*/
 
 #footer-wrapper {
-	bottom:0;
 }
 
 #site-footer {	
@@ -176,7 +178,6 @@ img a {
 
 #footer-follow {
 	color:white;
-	bottom:0;
 }
 
 

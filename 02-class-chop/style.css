@@ -34,9 +34,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -76,19 +78,52 @@ html[xmlns] .clearfix { display: block; }
 
 <--!-->
 
-<style>
- 
 
+
+
+#page {
+	margin:0 auto 40px;
+	width:988px;
+}
+
+header img {
+ 	padding:20px;
+}
+
+#main-menu li {
+	text-transform:uppercase;
 	
+	float:left;
+	width:200px;
+ }
 
-
-	</style>
-
-	
+#center {
 	
 }
 
 
+article img {
+	float:left;
+	border:2px;		
+}
 
-</style>
+
+article .dog {
+	float:left;
+	width:50%;	
+	margin:10px;
+}
+
+article .dog {
+	float:left;
+	width:50%;	
+	margin:10px;
+}
+	
+footer {
+	border-style:solid;
+	border-width:5px 0 0 0;
+	
+	text-align:center;
+}
 

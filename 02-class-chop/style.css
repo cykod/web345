@@ -118,7 +118,7 @@ body img {
 
 nav #main-menu {
 	position:relative;
-	top:10px;
+	top:50px;
 }
 
 
@@ -134,6 +134,9 @@ nav #main-menu {
 	margin:2px;
 }
 
+footer nav {
+ 
+}
 
 footer .red {
 	color:red;

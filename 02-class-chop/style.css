@@ -92,9 +92,7 @@ h1 {
 
 
 header img {
-	position:relative;
-	
-   	padding:10px;
+
 }
 
 nav {
@@ -107,7 +105,8 @@ nav {
 
 
 nav li {
-	float:left;
+	float:right;
+
 }
 
 
@@ -118,7 +117,7 @@ body img {
 
 nav #main-menu {
 	position:relative;
-	top:50px;
+	
 }
 
 
@@ -135,7 +134,7 @@ nav #main-menu {
 }
 
 footer nav {
- 
+ 	
 }
 
 footer .red {

@@ -90,14 +90,11 @@ h1 {
 	line-height:200%;
 }
 
-body img {
- 	padding:10px 2px 2px 2px;
-}
 
 header img {
-	position:absolute;
+	position:relative;
 	
-   	padding:20px;
+   	padding:10px;
 }
 
 nav {
@@ -108,29 +105,20 @@ nav {
 	border-width:4px 0 4px 0;
 }
 
+
 nav li {
 	float:left;
 }
 
 
-body p {
-	width:50%;
-}
-
-#article {
-	float:left;
-	width:45%;
-	margin:2px;
-}
-
-
 body img {
-	
+ 	padding:10px 2px 2px 2px;
 }
 
-#main-menu {
-	position:absolute;
 
+nav #main-menu {
+	position:relative;
+	top:10px;
 }
 
 
@@ -138,6 +126,12 @@ body img {
 	text-transform:uppercase;
 	padding:2px;
 
+}
+
+#article {
+	float:left;
+	width:45%;
+	margin:2px;
 }
 
 

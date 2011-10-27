@@ -55,9 +55,10 @@ table {
 
 /* Center Content */
 
-.centered { 
-  margin:0 auto;
-  width:960px;
+.page {
+	margin:0 auto 0px;
+	width:960px;
+	
 }
 
 
@@ -79,8 +80,8 @@ html[xmlns] .clearfix { display: block; }
 <--!-->
 
 .page {
-	width:960px;
 	margin:0 auto 0px;
+	width:960px;
 	
 }
 
@@ -134,6 +135,7 @@ nav #main-menu {
 }
 
 footer nav {
+	bottom:20%;
  	
 }
 

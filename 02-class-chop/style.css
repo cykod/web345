@@ -96,6 +96,7 @@ header img {
 
 }
 
+<<<<<<< HEAD
 nav {
 	position:absolute;
 	padding:10px;
@@ -108,8 +109,29 @@ nav {
 nav li {
 	float:right;
 
+=======
+header {
+position:relative;
 }
 
+header img {
+ 	padding:20px;
+}
+
+#main-menu li {
+	float:left;	
+	text-transform:uppercase;
+ }
+
+#center {
+	margin:0 auto 40px;
+	width:988px;
+>>>>>>> ?
+}
+
+p	{
+	
+}
 
 body img {
  	padding:10px 2px 2px 2px;

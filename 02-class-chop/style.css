@@ -55,11 +55,6 @@ table {
 
 /* Center Content */
 
-.page {
-	margin:0 auto 0px;
-	width:960px;
-	
-}
 
 
 /* Clearfix */
@@ -79,89 +74,93 @@ html[xmlns] .clearfix { display: block; }
 
 <--!-->
 
-.page {
-	margin:0 auto 0px;
-	width:960px;
+
+
+
+header {
+	  margin-top:10px;
 	
 }
 
-	
-h1 {
-	font-weight:bold;
-	line-height:200%;
-}
+
+	h1 {
+		font-weight:bold;
+		line-height:200%;
+		font-size:180%;
+		margin:0 0 0 5px;
+	}
 
 
-header img {
-
-}
-
-<<<<<<< HEAD
 nav {
 	position:absolute;
-	padding:10px;
+	width:1000px;
+	padding:5px 0 0 5px;
 			
 	border:solid;
-	border-width:4px 0 4px 0;
+	border-width:4px 0 4px 0; 
+	background-repeat:repeat-x;
 }
 
 
 nav li {
-	float:right;
-
-=======
-header {
-position:relative;
+	float:left;
+	margin:1px 20px 1px 25px;
+	
+	font-size:24px;
+	font-weight:bold;
+ 
 }
 
-header img {
- 	padding:20px;
+.spacer {
+	height:75px;
 }
 
 #main-menu li {
-	float:left;	
 	text-transform:uppercase;
- }
-
-#center {
-	margin:0 auto 40px;
-	width:988px;
->>>>>>> ?
-}
-
-p	{
-	
-}
-
-body img {
- 	padding:10px 2px 2px 2px;
-}
-
-
-nav #main-menu {
-	position:relative;
-	
-}
-
-
-#main-menu li {
-	text-transform:uppercase;
-	padding:2px;
 
 }
 
 #article {
 	float:left;
-	width:45%;
-	margin:2px;
+	width:40%;
+	margin:1px 5px 2px 5px;
+}
+
+
+
+
+p {
+	text-align:left;
+	line-height:1.3em;
+	color:#5A4747;
+	margin:10px;
+	
 }
 
 footer nav {
 	bottom:20%;
- 	
+	border:solid;
+	border-width: 4px 0 0 0;
 }
+
 
 footer .red {
 	color:red;
+	left:10px;
+	 
 }
+
+footer li {
+	font-size:14px;
+	font-weight:normal;	
+	
+	width:400px;
+	margin-right:50px;
+}
+
+
+
+
+
+
 

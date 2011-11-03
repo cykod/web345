@@ -104,7 +104,6 @@ nav {
 
 nav li {
 	float:left;
-	margin:1px 20px 1px 25px;
 	
 	font-size:24px;
 	font-weight:bold;
@@ -117,7 +116,8 @@ nav li {
 
 #main-menu li {
 	text-transform:uppercase;
-
+	margin:1px 20px 1px 25px;
+	
 }
 
 #container {
@@ -133,10 +133,12 @@ nav li {
 .article {
 	float:left;
 	width:45%;
-	margin:1px 5px 2px 5px;
+	margin:1px 25px 2px 5px;
 }
 
-
+img {
+	
+}
 
 
 p {
@@ -148,29 +150,40 @@ p {
 }
 
 footer nav {
-	bottom:20%;
+	bottom:25%;
 	border:solid;
-	border-width: 4px 0 0 0;
+	border-width: 4px 0 0 0px;
 }
 
 
 footer .red {
 	color:red;
-	left:10px;
-	 
+ 	 	 
 }
 
 footer li {
+		
 	font-size:14px;
 	font-weight:normal;	
-	
-	width:400px;
-	margin-right:50px;
+	width:500px;
+
+}
+
+
+.leftfooter {
+	position:absolute;
+	left:20px;
+	color:black;
 }
 
 
 
-
+.rightfooter {
+	position:absolute;
+	right:-200px;
+	color:black;
+ 
+}
 
 
 

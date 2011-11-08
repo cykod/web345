@@ -72,14 +72,15 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
-<--!-->
+<!-- -->
 
 
 
 
 header {
 	  margin-top:10px;
-	
+
+	   
 }
 
 
@@ -94,7 +95,7 @@ header {
 nav {
 	position:absolute;
 	width:1000px;
-	padding:5px 0 0 5px;
+	padding:5px 0 5px 5px;
 			
 	border:solid;
 	border-width:4px 0 4px 0; 
@@ -122,8 +123,7 @@ nav li {
 
 #container {
 	width:960px;
-	height:500px;
-	
+ 	
 	margin-left:auto;
 	margin-right:auto;
 
@@ -133,11 +133,21 @@ nav li {
 .article {
 	float:left;
 	width:45%;
-	margin:1px 25px 2px 5px;
+	margin:1px 25px 2px 20px;
+ 
+
 }
+
 
 img {
 	
+}
+
+
+.photo {
+	width:55%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 
@@ -150,7 +160,8 @@ p {
 }
 
 footer nav {
-	bottom:25%;
+	position:absolute;
+	bottom:75px;
 	border:solid;
 	border-width: 4px 0 0 0px;
 }

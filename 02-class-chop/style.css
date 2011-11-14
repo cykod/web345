@@ -74,12 +74,14 @@ html[xmlns] .clearfix { display: block; }
 
 <!-- -->
 
-
+body {
+	
+}
 
 
 header {
 	  margin-top:10px;
-
+	  margin-left:25%;
 	   
 }
 
@@ -126,6 +128,8 @@ nav li {
  	
 	margin-left:auto;
 	margin-right:auto;
+	
+	clear:both;
 
  }
 
@@ -135,7 +139,6 @@ nav li {
 	width:45%;
 	margin:1px 25px 2px 20px;
  
-
 }
 
 
@@ -160,6 +163,7 @@ p {
 }
 
 footer nav {
+	
 	position:absolute;
 	bottom:75px;
 	border:solid;

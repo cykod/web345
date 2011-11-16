@@ -81,66 +81,69 @@ header {
 
 
 #container {
+	margin:auto;
 	
-	margin-top:20px;
-	 
-	width:400px;
+	width:600px;
 	height:100px;
-
 	
 
 }
 
-#logo {
-
-	width:75px;
-	height:75px;
+body {
+	margin-top:25px;
 }
 
 
 #dblborder {
-	border:solid;
-	border-color:#E0E0E0;
-	border-width:4px 0 4px 0;
+	
+		width:75px;
+		height:75px;
+	
+		border:solid;
+		border-color:#E0E0E0;
+		border-width:4px 0 4px 0;
+		
+		float:left;
 }
+
+
+#dogs {
+	
+		font-family:'League Gothic', helvetica, sans-serif;
+		font-size:110px;
+	
+		padding:0 10px 0 0;
+		
+		float:left;
+}
+
+
 
 .vs {
-	font-family:Georgia;
-	font-weight:bold;
-	font-style:italic;
+		
+		font-family:Georgia;
+		font-weight:bold;
+		font-style:italic;
 	
-	border:solid;
-	border-width:1px 0 1px 0;
+		border:solid;
+		border-width:1px 0 1px 0;
 	
-	width:75px;
+		width:75px;
 	
-	font-size:60px;
-	color:#E0E0E0;
+		font-size:60px;
+		color:#E0E0E0;
 	
-	margin:4px;
-	 
+		margin-top:6px;	
 	
 }
 
-
-.dogs {
-	
-	font-family:'League Gothic', helvetica, sans-serif;
-	font-size:110px;
-	
-	float:left;
-	padding:0 10px 0 0;
-	
-	 
-}
-
-
-.cats {
-	font-family: 'League Gothic', helvetica, sans-serif;
-	font-size:110px;
-	
-	float:right;
-	 
+#cats {
+		float:left;
+		
+		padding:0 0 0 10px;
+		font-family: 'League Gothic', helvetica, sans-serif;
+		font-size:110px;
+		 
 }
 
 

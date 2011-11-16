@@ -79,3 +79,57 @@ header#site-header h1 { position:absolute; left:10px; top:10px; }
 header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
 
 
+/* start styling here */
+
+header {
+	 
+	background-color:#CCFFCC;
+	
+	height:100px;
+	
+}
+
+.spacer {
+	height:75px;
+}
+
+p {
+	
+	float:left;
+	
+	background-color:#CCFFCC;
+}
+
+
+aside {
+	
+	float:left;
+
+	background-color:#CCFFCC;
+}
+
+
+#main-menu {
+	
+	background-color:#663333;
+	color:white;
+	
+	float:left;
+	height:50px;
+	width:600px;
+	
+}
+
+
+footer {
+	clear:both;
+	height:40px;
+	background-color:#663333;
+	color:white;
+	
+}
+
+
+
+
+

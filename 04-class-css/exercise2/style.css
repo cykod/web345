@@ -68,6 +68,10 @@ body {
 
 
 h1 {	
+	font-family:Georgia;
+	font-weight:bold;
+	font-style:italic;
+	
 	color:#7A5919;
 	text-transform:uppercase;
 	margin:10px;
@@ -75,44 +79,37 @@ h1 {
 
 
 h2 {
+	clear:both;
+	
 	font-family: arial;
 	text-transform:uppercase;
 	color:#7A5919;
 	font-style:bold;
 	
 	
-	margin:10px;
-}
-
-p {
+	margin:10px;	
 	width:65%;
 }
 
 
 
-/*side bar text*/
-ol, ul {
-	padding:1px 10px 1px 1px;
-	list-style: none;
-	
-
-}
-
 
 li a {
-	
-	float:right;
+
 	text-decoration:none;
 	color:white;
 	text-transform:uppercase;
 }
 
+header {
+	width:1200px;
+}
 
 #site-wrapper   {
 
 	margin:auto;
 	
-	width:960px;
+	width:1200px;
 	height:200px;
 
 }
@@ -120,15 +117,14 @@ li a {
 /* robot logo */
 #site-header   {
 	position:absolute;
-	width:960px;
+	width:600px;
 	background-color:#FFFFCC;
 }
 
 
 /* top navigation  login and contact us */
+
 #login li {
-	
-	float:right;
 	padding:2px;
 
 }
@@ -136,6 +132,7 @@ li a {
 
 /* color for login text */
 #login a {
+	top:10%;
 	
 	text-decoration:none;
 	color:#996633;
@@ -145,16 +142,15 @@ li a {
 
 
 #main-nav {
-	
-	height:150px;
-	clear:both;
-	 
+	height:160px;
+	width:100%;
 }
 
 #main-nav  a {
-	float:left;
 	background-color:#7A5919;
 	padding:3px;
+	float:left;
+	
 	
 }
 
@@ -167,21 +163,24 @@ li a {
 	clear:both;
 	background-color:white;
 	
-	height:660px;
+	height:750px;
 }
 /* end whole article, images and aside */
 
 
-article h1 {
-	
+p {
+	width:65%;
+}
+
+
+article h1 {	
 	font-size:2.5em;
 	text-transform:none;
-	font-family:Georgia;
+
+	
 }	
 	
-article p {
-		float:left;
-	
+article p {	
 		padding:12px;
 		line-height:1.5em;
 		font-size:1em;	
@@ -189,40 +188,62 @@ article p {
 	
 
 aside {	
-	
-	
+	float:right;
+	width:30%;
 	
 }
+
+#sidebar {
+
+}
+
 
 #sidebar a {
 	text-transform:lowercase;
 	color:#7A5919;
-	background-color:white;
 	
 	font-size:.75em;
-	}
+
+}
+
+
+
+/*side bar text*/
+ol, ul {
+	padding:1px 10px 1px 1px;
+	list-style: none;
+	float:right;
+
+}
 
 
 img a {
- 
 
 }
 
 /* end content wrapper*/
 
 
+.contact-follow  h1 {
+	font-family:arial;
+	font-style:normal;
+	font-weight:normal;
+	
+	color:white;
+	margin:0px;
+	line-height:2em;
+}
+
 
 footer p {
 	width:25%;
 	color:white;
 	font-size:.75em;
+	
+	line-height:1.25em;
 }
 
-footer h1 {
-	color:white;
-	text-decoration:uppercase;
-	
-}
+
 
 
 #footer-wrapper {
@@ -237,13 +258,13 @@ footer h1 {
 
 
 footer li {
-	float:right;	
+	float:left;
 	color:#7A5919;	
 }
 
 
 .contact-follow {
-	float:right;
+	float:left;
 }
 
 

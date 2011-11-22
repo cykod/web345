@@ -92,7 +92,7 @@ header {
 #top-nav {
 	position:absolute;
 	top:10px;
-	right:0px;
+	left:600px;
 	
 	padding:2px;
 }
@@ -115,7 +115,7 @@ header {
 
 #main-menu {
 	position:absolute;
-	right:60px;
+	left:60px;
 	width:960px;
 	
 	height:50px;
@@ -140,8 +140,8 @@ header {
 	
 	padding:0 50px 0 0;
 
-
 }
+
 
 /* end menu wrapper*/
 
@@ -149,6 +149,7 @@ header {
 #faq {
 	color:#99FF66;
 }
+
 
 	
 /* this is the article body */	
@@ -159,7 +160,8 @@ header {
 }
 
 #content {
-
+	margin:60px;
+	height:800px;
 }
 
 
@@ -177,13 +179,13 @@ header {
 	font-style:italic;
 
 	color:#7A5919;
-	
 	}
 
 	
 #page h2 {	
 	font-size:1.5em;
 	text-transform:none;
+	line-height:2.5em;
 	
 }
 	
@@ -225,9 +227,11 @@ article h2 {
 
 #sidebar h1 {
 	font-family:arial;
-	font-size:1.25em;
+	font-size:1em;
 	line-height:2em;
 	
+	text-transform:uppercase;
+	font-weight:bold;
 	color:#7A5919;
 }
 
@@ -249,7 +253,7 @@ img {
 #site-footer {
 
 	width:960px;
-	height:130px;
+	height:200px;
 }
 
 #footer-contact {
@@ -260,6 +264,7 @@ img {
 
 
 #footer-contact h1 {
+	text-transform:uppercase;
 	color:white;
 	margin:10px 0 10px 0;
 }
@@ -274,7 +279,7 @@ img {
 
 
 #footer-follow h1 {
-
+	text-transform:uppercase;
 	right:10px;
 
 }

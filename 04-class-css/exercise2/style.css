@@ -68,18 +68,14 @@ body {
 
 header {
 	width:960px;
-	height:100px;
-	
-
+	height:130px;
 }
 
 
 #site-wrapper   {
 	margin:0 auto;
-	width:960px;
+	background-color:#EFFFEF;
 	
-	background-color:#FFFFCC;
-
 }
 
 /* robot logo */
@@ -113,10 +109,9 @@ header {
 #menu-wrapper {
 	position:relative;
 	height:30px;
-	background-color:#663300;
+	background-color:#996633;
 
 }
-
 
 #main-menu {
 	position:absolute;
@@ -152,7 +147,7 @@ header {
 
 
 #faq {
-	color:olive;
+	color:#99FF66;
 }
 
 	
@@ -160,7 +155,6 @@ header {
 
 #content-wrapper {
 	width:960px;
-
 	
 }
 
@@ -194,7 +188,7 @@ header {
 }
 	
 #page p {	
-		padding:12px;
+	
 		line-height:1.5em;
 		font-size:1em;	
 }
@@ -234,7 +228,7 @@ article h2 {
 	font-size:1.25em;
 	line-height:2em;
 	
-	color:red;
+	color:#7A5919;
 }
 
 

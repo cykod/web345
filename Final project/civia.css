@@ -76,17 +76,15 @@ html[xmlns] .clearfix { display: block; }
 /* logo replacement */
 
 header#site-header h1 { position:absolute; left:10px; top:10px; }
-header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
+header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/window.png) top center no-repeat; text-indent:-9999px; }
 
 
 
 								/* start styling */
 
 
-
-
 head {
-	
+
 }
 
 
@@ -96,25 +94,49 @@ body {
 
 header {
 	
-	position:relative;
-	
-	height:50px;
+	width:100px;
+	height:200px;
 	
 }
 
-#site-wrapper {
-	position:relative;
-	height:30px;
+header h1 a {
 	
-	background-color:yellow;
+	color:blue;
+	font-family:helvetica;
+	
 }
 
+#site-wrapper   {
+	
+	margin:0 auto;
+
+	
+}
+
+
+
+#site-header {
+		
+	position:relative;
+	width:1060px;
+	height:100px;
+	
+}
+
+
+
+#top-nav a {
+	
+	text-decoration:none;
+
+
+}
 
 #top-nav {
 
 	position:absolute;
 	
-	right:300px;
+	right:10px;
 	top:10px;
 	
 	height:25px;
@@ -122,30 +144,55 @@ header {
 
 }
 
-
-ul img {
-	float:left;	
+#top-nav ul li {
 	
+	float:left;
+	list-style: none;
+
+}
+
+#top-nav a {
+	
+	text-decoration:none;
+	padding:0 10px 0 10px;
+
 }
 
 #content-wrapper {
+	
 	clear:both;
+	width:1060px;
+	
+	margin:0 auto;
 }
 
 
-ul li {
+#content li {
+	
 	float:left;
-}
+	padding:5px;
 
+}
 
 
 h2 {
 	clear:both;
+	
+	font-size:1.25em;
+	color:#00008B;
+}
+
+
+a {
+	
+	text-decoration:none;
+	
 }
 
 
 p {
 	
+	clear:both;
 }
 
 footer {

@@ -76,7 +76,7 @@ html[xmlns] .clearfix { display: block; }
 /* logo replacement */
 
 header#site-header h1 { position:absolute; left:10px; top:10px; }
-header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/window.png) top center no-repeat; text-indent:-9999px; }
+header#site-header h1 a { display:block; width:50px; height:75px; background:url(images/window.png) top center no-repeat; text-indent:-9999px; }
 
 
 
@@ -94,8 +94,6 @@ body {
 
 header {
 	
-	width:100px;
-	height:100px;
 	
 }
 
@@ -103,8 +101,7 @@ header h1 {
 	
 	color:#A52A2A;
 	font-family:helvetica;
-	
-	
+
 }
 
 #site-wrapper   {
@@ -123,26 +120,41 @@ header h1 {
 	
 }
 
+#civia {
+	
+	position:absolute;
+	
+	top:10px;
+	left:80px;
+	padding:10px;
+	
+	font-family:Helvetica;
+	font-size:2em;
+}
+
 
 
 #top-nav a {
 	
 	text-decoration:none;
 
-
 }
+
 
 #top-nav {
 
 	position:absolute;
 	
-	right:10px;
+	left:800px;
 	top:10px;
 	
 	height:25px;
 	padding:5px;
+	
+
 
 }
+
 
 #top-nav ul li {
 	
@@ -156,6 +168,8 @@ header h1 {
 	text-decoration:none;
 	padding:0 10px 0 10px;
 	
+	color:black;
+	
 }
 
 
@@ -165,6 +179,7 @@ header h1 {
 	width:1260px;
 	
 	margin:0 auto;
+
 
 	
 }
@@ -176,10 +191,17 @@ header h1 {
 	padding:5px;
 	
 	text-decoration:none;
+	
+	font-family:Helvetica;
 
 }
 
+#content h3 {
+ 	
+	font-size:1em;
+	line-height:1.5em;
 
+}
 
 h2 {
 	clear:both;
@@ -187,6 +209,11 @@ h2 {
 	font-size:1.25em;
 	line-height:2em;
 	color:#00008B;
+	
+	padding:25px 0 0 0;
+	
+	font-family:Helvetica;
+	text-transform:uppercase;
 	
 }
 
@@ -199,15 +226,20 @@ a {
 
 
 p {
-	
 	clear:both;
 	
-	width:400px;
-	line-height:1.25em;
+	width:500px;
+	line-height:1.5em;
+	
+	font-size:1.25em;
 }
 
-footer {
-	 
+nav li a {
+	
+	float:left;
+	padding:25px 50px 10px 0;
+		
+	font-family:Helvetica;
 	
 }
 

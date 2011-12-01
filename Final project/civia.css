@@ -108,7 +108,7 @@ header {
 
 header h1 {
 	
-	color:#A52A2A;
+	color:#006666;
 	font-family:helvetica;
 
 }
@@ -142,10 +142,11 @@ header h1 {
 
 }
 
-a:link {
-		color:#A52A2A;
-	
-}
+a:link    {color:#006666;}
+a:visited {color:#003366;}
+a:hover   {color:#339999;}
+a:active  {color:#660033;}
+
 
 #top-nav a {
 	
@@ -223,7 +224,7 @@ h2 {
 	
 	font-size:1.25em;
 	line-height:2em;
-	color:#00008B;
+	color:#660033;
 	
 	padding:25px 0 0 0;
 	

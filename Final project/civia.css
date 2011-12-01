@@ -139,9 +139,13 @@ header h1 {
 	
 	font-family:Helvetica;
 	font-size:2em;
+
 }
 
-
+a:link {
+		color:#A52A2A;
+	
+}
 
 #top-nav a {
 	
@@ -257,7 +261,7 @@ nav li a {
 
 footer li a {
  
-	margin:10px 25px 0 40px;
+	margin:10px 10px 0 25px;
  
 
 }

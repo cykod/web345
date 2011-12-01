@@ -93,9 +93,18 @@ body {
 }
 
 header {
-	
-	
+		
 }
+
+
+/* contact form */
+
+	label li { display:block;}
+
+	input, textarea li { display:block; }
+
+/* end contact form */
+
 
 header h1 {
 	

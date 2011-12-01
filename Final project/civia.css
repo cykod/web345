@@ -179,7 +179,7 @@ header h1 {
 	width:1260px;
 	
 	margin:0 auto;
-
+	padding:25px;
 
 	
 }
@@ -190,18 +190,20 @@ header h1 {
 	float:left;
 	padding:5px;
 	
-	text-decoration:none;
-	
+	text-decoration:none;	
 	font-family:Helvetica;
 
 }
 
-#content h3 {
+#content li h4 {
  	
 	font-size:1em;
-	line-height:1.5em;
+	line-height:1.25em;
+	
+	margin:3px 0px 0 3px;
 
 }
+
 
 h2 {
 	clear:both;
@@ -237,17 +239,23 @@ p {
 nav li a {
 	
 	float:left;
-	padding:25px 50px 10px 0;
+	padding:25px 0 0 25px;
 		
 	font-family:Helvetica;
+	margin:0 10px 0 10px;
 	
 }
 
+footer li a {
+ 
+	margin:10px 25px 0 40px;
+ 
 
+}
 
 #resume li {
 	width:300px;
-	padding:0 0 50px 0;
+	padding:0 5px 25px 0;
 	
 	line-height:1.35em;
 }
@@ -257,6 +265,14 @@ nav li a {
 	line-height:1.35em;
 }
 
+#resume h2 {
+	
+	color:#990000;	
+}
+
+#resume li h3 {
+		color:#990000;	
+}
 
 .booktitle {
 	font-style:italic;

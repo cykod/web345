@@ -80,6 +80,16 @@ header#site-header h1 { position:absolute; left:10px; top:10px; }
 header#site-header h1 a { display:block; width:50px; height:75px; background:url(images/window.png) top center no-repeat; text-indent:-9999px; }
 
 
+<!-- logo replacement -->
+
+
+	#site-header h1 a {
+	 display:block; ‚Ä®
+	 width:300px; 
+	 height:80px;  
+	 background:url(images/window.png) no-repeat top left; 
+	 text-indent:-9999px;
+	 }
 
 								/* start styling */
 

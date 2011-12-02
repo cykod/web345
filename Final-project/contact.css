@@ -90,22 +90,35 @@ head {
 
 body {
 
-	padding:50px;
-	font-style:Helvetica;
-
+	padding:25px;
 }
 
 body a {
 	
 	text-decoration:none;
 	color:#A52A2A;
+
 }
 
-
+fieldset {
+ 	
+	clear:both;
+}
 
 header {
 	
 }
+
+label {
+	
+	font-family:Helvetica;
+	line-height:2em;
+	
+	font-size:.75em;
+	color:#00008B;
+	
+}
+
 
 #civia {
 	
@@ -124,9 +137,14 @@ header {
 
 /* contact form */
 
-	label li { display:block;}
+	label li { display:block;	
+		
+		}
 
-	input, textarea li { display:block; }
+	input, textarea li { display:block; 	
+		
+		}
+		
 
 /* end contact form */
 

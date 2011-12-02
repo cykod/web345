@@ -56,6 +56,7 @@ table {
 .centered { 
   margin:0 auto;
   width:960px;
+
 }
 
 
@@ -129,7 +130,7 @@ header h1 {
 #site-wrapper   {
 	
 	margin:0 auto;
-	
+
 }
 
 
@@ -200,7 +201,7 @@ header h1 {
 	width:1260px;
 	
 	margin:0 auto;
-	padding:25px;
+	padding:50px;
 
 	
 }

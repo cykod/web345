@@ -1,0 +1,105 @@
+/*** Overall FancyMoves Slider Styles ***/
+.mb-wrapper {
+  width: 900px; /* default, this is overridden by script settings */
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+  top: 0;
+  background:#181818
+  
+}
+
+/* Panel Wrapper */
+.mb-slider, .mb-scroll {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+
+
+/*** Slider panel ***/
+.mb-slider .mb-panel {
+  width: 350px;  /* default, this is overridden by script settings */
+  margin: 5px 0;
+  padding: 5px;
+  display: block;
+  cursor: pointer;
+  float: left;
+  list-style: none;
+}
+
+/* Cursor to arrow over current panel, pointer for all others,
+  change .current class name using plugin option, currentPanel : 'current' */
+.mb-slider .mb-panel.current {
+ cursor: auto;
+}
+
+/*** Inside the panel ***/
+.mb-inside {
+  padding: 10px;
+  
+}
+
+.mb-inside * {
+  max-width: 100%;
+}
+
+/*** Left & Right Navigation Arrows ***/
+a.mb-scrollButtons {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: transparent url(../images/arrows.png) no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -29px; /* if you change the arrow images, you may have to adjust this (1/2 height of arrow image) */
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+}
+a.mb-scrollButtons.mb-left {
+  background-position: left top;
+  left: -65px;
+}
+a.mb-scrollButtons.mb-right {
+  background-position: right top;
+  right: -65px;
+}
+a.mb-scrollButtons.mb-left:hover {
+  background-position: left bottom;
+}
+a.mb-scrollButtons.mb-right:hover {
+  background-position: right bottom;
+}
+
+
+/*** Controls added below the panels ***/
+.mb-controls {
+  margin: 0 auto;
+  text-align: center;
+  
+  position: relative;
+  z-index: 100;
+}
+.mb-controls a {
+  color: #444;
+  font-size:13px;
+  font-family:Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px;
+  height: 18px;
+  margin: 0 5px 0 0;
+  text-align: center;
+  outline: 0;
+}
+.mb-controls a.current, .mb-controls a:hover {
+  color: #fff;
+}

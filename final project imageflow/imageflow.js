@@ -155,6 +155,14 @@ function ImageFlow ()
 					node.setAttribute('src',src);
 				}
 
+/******  added to get rid of reflection    *****/
+				var basic_2 = new ImageFlow();
+				basic_2.init({ ImageFlowID: 'basic_2', 
+				                   reflections: false, 
+				                   reflectionP: 0.0 });
+
+
+
 				/* Clone image nodes and append them to the images div */
 				imageNode = node.cloneNode(true);
 				imagesDiv.appendChild(imageNode);
@@ -501,6 +509,9 @@ function ImageFlow ()
 			{	
 				my.imageID = my.imageID + my.imageFocusMax;
 			}
+
+			
+			
 
 			/* Make sure, that the id is smaller than the image count  */
 			maxId = (my.circular) ?  (my.max-(my.imageFocusMax))-1 : my.max-1;

@@ -77,8 +77,19 @@ html[xmlns] .clearfix { display: block; }
 /* logo replacement */
 
 header#site-header h1 { position:absolute; left:10px; top:10px; }
-header#site-header h1 a { display:block; width:100px; height:100px; background:url(images/bird.png) top center no-repeat; text-indent:-9999px; }
+header#site-header h1 a { display:block; width:50px; height:75px; background:url(images/bird.png) top center no-repeat; text-indent:-9999px; }
 
+
+<!-- logo replacement -->
+
+
+	#site-header h1 a {
+	 display:block; ‚Ä®
+	 width:200px; 
+	 height:100px;  
+	 background:url(images/bird.png) no-repeat top left; 
+	 text-indent:-9999px;
+	 }
 
 								/* start styling */
 
@@ -135,7 +146,7 @@ header h1 {
 #site-header {
 		
 	position:relative;
-	width:1060px;
+	width:1260px;
 	height:100px;
 	
 }
@@ -145,7 +156,7 @@ header h1 {
 	position:absolute;
 	
 	top:10px;
-	left:100px;
+	left:70px;
 	padding:10px;
 	
 	font-family:Helvetica;
@@ -186,6 +197,7 @@ header h1 {
 	text-decoration:none;
 	padding:0 10px 0 10px;
 	
+	color:black;
 	
 }
 
@@ -193,10 +205,10 @@ header h1 {
 #content-wrapper {
 	
 	clear:both;
-	width:1060px;
+	width:1260px;
 	
 	margin:0 auto;
-	padding:15px;
+	padding:1px;
 	
 }
 
@@ -247,11 +259,14 @@ p {
 	clear:both;
 
 	width:500px;
-	line-height:1.5em;
+	line-height:1em;
 	
 	font-size:1.25em;
 	
-	margin:0 0 20px 0;
+}
+
+.color {
+	color:#660033;
 }
 
 nav li a {
@@ -266,7 +281,7 @@ nav li a {
 
 footer li a {
  
-	margin:0 10px 0 25px;
+	margin:0 10px 0 50px;
 }
 
 footer {
@@ -315,7 +330,7 @@ footer {
 
 #folio {
 	position:absolute;
-	left:630px;
+	left:750px;
 	
 	width:25px;
 	background-color:purple;
@@ -336,7 +351,6 @@ footer {
 	width:300px;
 	padding:0 5px 25px 0;
 	
-	line-height:1.35em;
 }
 
 #resume p {

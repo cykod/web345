@@ -80,8 +80,8 @@ html[xmlns] .clearfix { display: block; }
 
 	#site-header h1 a {
 	 display:block; ‚Ä®
-	 width:300px; 
-	 height:80px;  
+	 width:280px; 
+	 height:100px;  
 	 background:url(images/bird.png) no-repeat top left; 
 	 text-indent:-9999px;
 	 }
@@ -148,7 +148,7 @@ label {
 	position:absolute;
 	
 	top:50px;
-	left:125px;
+	left:115px;
 	padding:5px;
 	
 	font-family:Helvetica;
@@ -190,7 +190,7 @@ img {
 nav li a {
 	
 	float:left;
-	padding:10px 0 0 10px;
+	padding:10px 0 0 0;
 		
 	font-family:Helvetica;
 	margin:0 10px 0 10px;
@@ -199,7 +199,7 @@ nav li a {
 
 footer li a {
  
-	margin:0 10px 0 50px;
+	margin:0 7px 0 15px;
 }
 
 footer {
@@ -207,6 +207,8 @@ footer {
 	border-style:solid;
 	border-width:1px;
 	border-color:#339999;
+	
+	width:500px;
 
 }
 

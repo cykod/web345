@@ -91,6 +91,21 @@ html[xmlns] .clearfix { display: block; }
 								/* start styling */
 
 
+	a:link    {color:#2F4F4F;}
+	a:visited {color:#003366;}
+	a:hover   {color:#339999;}
+	a:active  {color:#339999;}
+
+	#top-nav a:link    {color:#006666;}
+	#top-nav a:visited {color:#339999;}
+	#top-nav a:hover   {color:#336600;}
+	#top-nav a:active  {color:#333366;}
+
+
+
+
+
+
 head {
 
 }
@@ -165,12 +180,35 @@ label {
 
 
 img {
+	
 	border:1px solid;
 	border-radius:10px;
+	
+	margin:0 0 25px 0;
 }
 
+nav li a {
+	
+	float:left;
+	padding:10px 0 0 10px;
+		
+	font-family:Helvetica;
+	margin:0 10px 0 10px;
+	
+}
 
+footer li a {
+ 
+	margin:0 10px 0 50px;
+}
 
+footer {
+		
+	border-style:solid;
+	border-width:1px;
+	border-color:#339999;
+
+}
 
 
 

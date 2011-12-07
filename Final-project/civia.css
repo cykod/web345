@@ -117,8 +117,6 @@ header {
 /* end contact form */
 
 
-
-
 a:link    {color:#2F4F4F;}
 a:visited {color:#003366;}
 a:hover   {color:#339999;}
@@ -165,6 +163,7 @@ header h1 {
 	font-size:2em;
 
 }
+
 
 
 #top-nav a {
@@ -299,6 +298,45 @@ footer {
 	height:10px;
 }
 
+#recent {
+	position:absolute;
+	left:100px;
+	
+	width:25px;
+	background-color:purple;
+	height:10px;
+}
+
+#shaped {
+	position:absolute;
+	left:290px;
+	
+	width:30px;
+	background-color:purple;
+	height:10px;
+}
+
+#drawings {
+	position:absolute;
+	left:460px;
+	
+	width:25px;
+	background-color:purple;
+	height:10px;
+}
+
+#folio {
+	position:absolute;
+	left:750px;
+	
+	width:25px;
+	background-color:purple;
+	height:10px;
+}
+
+
+
+
 #resume li {
 	width:300px;
 	padding:0 5px 25px 0;
@@ -323,6 +361,8 @@ footer {
 .booktitle {
 	font-style:italic;
 }
+
+
 
 
 /* ----------------------------------------------------------------------------------------------------------------*/

@@ -279,7 +279,7 @@ footer {
 
 #paintings {
 	position:absolute;
-	left:615px;
+	left:515px;
 	
 	width:25px;
 	background-color:purple;
@@ -288,7 +288,7 @@ footer {
 
 #recent {
 	position:absolute;
-	left:100px;
+	left:85px;
 	
 	width:25px;
 	background-color:purple;
@@ -297,7 +297,7 @@ footer {
 
 #shaped {
 	position:absolute;
-	left:290px;
+	left:245px;
 	
 	width:30px;
 	background-color:purple;
@@ -306,7 +306,7 @@ footer {
 
 #drawings {
 	position:absolute;
-	left:460px;
+	left:390px;
 	
 	width:25px;
 	background-color:purple;
@@ -322,13 +322,40 @@ footer {
 	height:10px;
 }
 
-#maine {
+#resume-highlight {
 	position:absolute;
-	left:750px;
+	left:171px;
 	
 	width:25px;
-	background-color:#990000;
-	height:10px;
+	background-color:#2F4F4F;
+	height:15px;
+}
+
+#maine {
+	position:absolute;
+	left:87px;
+	
+	width:25px;
+	background-color:#2F4F4F;
+	height:15px;
+}
+
+#boston {
+	position:absolute;
+	left:-4px;
+	
+	width:25px;
+	background-color:#2F4F4F;
+	height:15px;
+}
+
+#contact {
+	position:absolute;
+	left:271px;
+	
+	width:25px;
+	background-color:#336600;
+	height:15px;
 }
 
 

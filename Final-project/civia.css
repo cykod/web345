@@ -148,7 +148,7 @@ header h1 {
 #site-header {
 		
 	position:relative;
-	width:1260px;
+	width:1060px;
 	height:100px;
 	
 }
@@ -158,7 +158,7 @@ header h1 {
 	position:absolute;
 	
 	top:10px;
-	left:80px;
+	left:70px;
 	padding:10px;
 	
 	font-family:Helvetica;
@@ -177,14 +177,12 @@ header h1 {
 
 	position:absolute;
 	
-	left:800px;
-	top:10px;
+	left:600px;
+	top:25px;
 	
 	height:25px;
 	padding:5px;
 	
-
-
 }
 
 
@@ -208,11 +206,10 @@ header h1 {
 #content-wrapper {
 	
 	clear:both;
-	width:1260px;
+	width:1060px;
 	
 	margin:0 auto;
-	padding:50px;
-
+	padding:1px;
 	
 }
 
@@ -261,11 +258,13 @@ a {
 
 p {
 	clear:both;
-	
+
 	width:500px;
 	line-height:1.5em;
 	
 	font-size:1.25em;
+	
+	margin:0 0 20px 0;
 }
 
 nav li a {
@@ -280,9 +279,24 @@ nav li a {
 
 footer li a {
  
-	margin:10px 10px 0 25px;
- 
+	margin:0 10px 0 50px;
+}
 
+footer {
+		
+	border-style:solid;
+	border-width:1px;
+	border-color:#339999;
+
+}
+
+#paintings {
+	position:absolute;
+	left:615px;
+	
+	width:25px;
+	background-color:purple;
+	height:10px;
 }
 
 #resume li {

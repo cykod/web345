@@ -296,10 +296,14 @@ footer li a {
 }
 
 footer {
+	
+	clear:both;
 		
 	border-style:solid;
 	border-width:1px;
 	border-color:#339999;
+	
+	bottom:0px;
 
 }
 

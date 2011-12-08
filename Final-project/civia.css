@@ -96,7 +96,10 @@ header#site-header h1 a { display:block; width:100px; height:100px; background:u
 
 
 								/* start styling */
-
+h4 {
+	
+	text-align:center;
+}
 
 head {
 

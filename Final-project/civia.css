@@ -163,7 +163,7 @@ header h1 {
 	left:100px;
 	padding:10px;
 	
-	font-family:'CopseRegular', Helvetica, sans-serif;
+	font-family:'CopseRegular' Helvetica sans-serif;
 	font-size:2em;
 
 }
@@ -212,7 +212,7 @@ header h1 {
 	
 	margin:0 auto;
 	padding:15px;
-	
+
 }
 
 
@@ -247,7 +247,7 @@ h2 {
 	
 	font-family:Helvetica;
 	text-transform:uppercase;
-	
+
 }
 
 
@@ -267,6 +267,7 @@ p {
 	font-size:1.25em;
 	
 	margin:0 0 20px 0;
+
 }
 
 nav li a {

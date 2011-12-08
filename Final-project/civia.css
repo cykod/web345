@@ -341,14 +341,6 @@ footer {
 	height:10px;
 }
 
-#resume-highlight {
-	position:absolute;
-	left:171px;
-	
-	width:25px;
-	background-color:#2F4F4F;
-	height:15px;
-}
 
 #maine {
 	position:absolute;
@@ -359,14 +351,39 @@ footer {
 	height:15px;
 }
 
-#boston {
-	position:absolute;
-	left:-4px;
+
+/* start highlight */
+
+#boston-highlight-A {
 	
-	width:25px;
-	background-color:#2F4F4F;
+	top:9px;	
+	position:absolute;
+	left:15px;
+	
+	width:7px;
+	background-color:#006666;
 	height:15px;
 }
+
+		
+	
+#maine-highlight-A {
+	
+	top:9px;
+	position:absolute;
+	left:105px;
+	
+	width:7px;
+	background-color:#006666;
+	height:15px;		
+	
+}
+
+
+
+/* end highlight */
+
+
 
 #contact {
 	position:absolute;

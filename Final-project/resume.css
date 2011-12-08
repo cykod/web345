@@ -187,6 +187,8 @@ header h1 {
 	
 }
 
+
+
 /* start highlight */
 
 #resume-highlight-A {
@@ -197,7 +199,7 @@ header h1 {
 
 		width:7px;
 		background-color:#006666;
-		height:10px;
+		height:15px;
 }
 
 #resume-highlight-B {
@@ -208,18 +210,21 @@ header h1 {
 
 		width:7px;
 		background-color:#660033;
-		height:10px;
+		height:15px;
 }
 
 /* end highlight */
+
+
 
 #content-wrapper {
 	
 	clear:both;
 	width:1260px;
 	
-	margin:0 auto;
+	margin:0 0 0 25px;
 	padding:1px;
+
 	
 }
 

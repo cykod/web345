@@ -163,7 +163,7 @@ header h1 {
 	left:100px;
 	padding:10px;
 	
-	font-family:'CopseRegular', Helvetica, sans-serif;
+	font-family: 'CopseRegular', Helvetica, sans-serif;
 	font-size:2em;
 
 }
@@ -208,7 +208,7 @@ header h1 {
 #content-wrapper {
 	
 	clear:both;
-	width:1060px;
+	width:1260px;
 	
 	margin:0 auto;
 	padding:15px;
@@ -261,12 +261,14 @@ a {
 p {
 	clear:both;
 
-	width:500px;
+	width:680px;
 	line-height:1.5em;
 	
 	font-size:1.25em;
 	
 	margin:0 0 20px 0;
+	
+	font-family: 'CopseRegular', helvetica, sans-serif;
 }
 
 nav li a {

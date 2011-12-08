@@ -17,6 +17,11 @@
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="thickbox.js"></script>
 
+		<!-- Enabling HTML5 support for Internet Explorer -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ 		<![endif]-->
+
 
 </head>
 	
@@ -42,15 +47,15 @@
 			
 		<nav id='top-nav'>
 
-		      <ul>
+		      <ul class="fancyNav">
 							
-				<li><a href='boston.html'>boston</a></li>
+				<li id='home'><a href='boston.html' class="homeIcon">boston</a></li>
 				<li>	|	</li>		
-		        <li><a href='maine.html'>maine</a></li>
+		        <li id='maine'><a href='maine.html'>maine</a></li>
 				<li>	|	</li>
-			    <li><a href='resume.html'>resume</a></li>
+			    <li id ='resume'><a href='resume.html'>resume</a></li>
 				<li>	|	</li>
-			    <li><a href='contact.html'>contact</a></li>			
+			    <li id ='contact'><a href='contact.html'>contact</a></li>			
 			
 		      </ul>
 			

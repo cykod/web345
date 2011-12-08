@@ -187,15 +187,31 @@ header h1 {
 	
 }
 
-#resume-highlight {
-	position:absolute;
-	left:174px;
+/* start highlight */
+
+#resume-highlight-A {
 	
-	width:25px;
-	background-color:#2F4F4F;
-	height:15px;
+		top:9px;
+		position:absolute;
+		left:190px;
+
+		width:7px;
+		background-color:#006666;
+		height:10px;
 }
 
+#resume-highlight-B {
+	
+		top:9px;
+		position:absolute;
+		left:263px;
+
+		width:7px;
+		background-color:#660033;
+		height:10px;
+}
+
+/* end highlight */
 
 #content-wrapper {
 	

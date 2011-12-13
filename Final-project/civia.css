@@ -172,13 +172,6 @@ header h1 {
 }
 
 
-
-#top-nav a {
-	
-
-}
-
-
 #top-nav {
 
 	position:absolute;
@@ -352,39 +345,6 @@ footer {
 }
 
 
-/* start highlight */
-
-#boston-highlight-A {
-	
-	top:9px;	
-	position:absolute;
-	left:15px;
-	
-	width:7px;
-	background-color:#006666;
-	height:15px;
-}
-
-		
-	
-#maine-highlight-A {
-	
-	top:9px;
-	position:absolute;
-	left:105px;
-	
-	width:7px;
-	background-color:#006666;
-	height:15px;		
-	
-}
-
-
-
-/* end highlight */
-
-
-
 #contact {
 	position:absolute;
 	left:271px;
@@ -420,6 +380,9 @@ footer {
 	font-style:italic;
 }
 
+.highlight {  
+text-transform:uppercase;
+}
 
 
 

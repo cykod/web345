@@ -1,0 +1,203 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+<!-- -->
+
+body {
+}
+
+
+header {
+	  margin-top:10px;
+	  margin-left:25%;
+	   
+}
+
+
+	h1 {
+		font-weight:bold;
+		line-height:200%;
+		font-size:180%;
+		margin:0 0 0 5px;
+	}
+
+
+nav {
+	position:absolute;
+	width:1000px;
+	padding:5px 0 5px 5px;
+			
+	border:solid;
+	border-width:4px 0 4px 0; 
+	background-repeat:repeat-x;
+}
+
+
+nav li {
+	float:left;
+	
+	font-size:24px;
+	font-weight:bold;
+ 
+}
+
+.spacer {
+	height:75px;
+}
+
+#main-menu li {
+	text-transform:uppercase;
+	margin:1px 20px 1px 25px;
+	
+}
+
+#container {
+	width:960px;
+ 	
+	margin-left:auto;
+	margin-right:auto;
+	
+	clear:both;
+
+ }
+
+
+.article {
+	float:left;
+	width:45%;
+	margin:1px 25px 2px 20px;
+ 
+}
+
+
+img {
+	
+}
+
+
+.photo {
+	width:55%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+p {
+	text-align:left;
+	line-height:1.3em;
+	color:#5A4747;
+	margin:10px;
+	
+}
+
+footer nav {
+	
+	position:absolute;
+	bottom:75px;
+	border:solid;
+	border-width: 4px 0 0 0px;
+}
+
+
+footer .red {
+	color:red;
+ 	 	 
+}
+
+footer li {
+		
+	font-size:14px;
+	font-weight:normal;	
+	width:500px;
+
+}
+
+
+.leftfooter {
+	position:absolute;
+	left:20px;
+	color:black;
+}
+
+
+
+.rightfooter {
+	position:absolute;
+	right:-200px;
+	color:black;
+ 
+}
+
+
+

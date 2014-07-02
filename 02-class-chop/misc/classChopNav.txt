@@ -1,0 +1,41 @@
+<style>
+  #main-menu {
+    background-color:gray;
+    position:relative;
+    height:40px;
+    width:270px;
+    
+    border-radius:15px;
+-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+  
+    box-shadow: 8px 8px 5px #888888;
+-webkit-box-shadow: 8px 8px 5px #888888; /* Safari */
+   }
+  
+  
+  
+  li a{text-decoration:none;
+  	color:white;
+  	float:left;
+    	padding:12px;
+	border-style:solid;
+	border-right-width:1px;
+    	border-color:white;
+    	margin-left:2px;
+    }
+  
+  .last a {border:none;}
+  
+</style>
+<nav id='main-menu'>
+<ul>
+	<li>
+		<a href="#">Home</a></li>
+	<li>
+		<a href="#">About</a></li>
+	<li>
+		<a href="#">Blog</a></li>
+	<li class='last'>
+		<a href="#">Contact</a></li>
+</ul>
+</nav>
